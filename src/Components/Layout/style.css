@@ -1,0 +1,16 @@
+@media screen and (max-width: 980px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  nav > img {
+    display: block;
+    margin: 0 auto;
+  }
+}

@@ -368,3 +368,42 @@ form > input {
 .challenge .footer {
   grid-column: col-start 1 / grid-end;
 }
+
+@media screen and (max-width: 1100px) {
+  .searchPage__info {
+    text-align: center;
+  }
+  .searchResult__infoTop {
+    width: 40vh;
+  }
+  .searchResult {
+    flex-direction: column;
+    align-items: center;
+  }
+  .searchResult__heart {
+    display: none !important;
+  }
+  .searchResults__price {
+    position: static;
+  }
+  .searchResult__infoBottom {
+    flex-direction: column;
+  }
+  .Search__Button {
+    padding: 220px;
+  }
+  .searchResults__price > p {
+    text-align: left;
+  }
+  .h2 {
+    font-size: 24px;
+    margin: 5px 0 5px 0;
+  }
+  .search__images {
+    width: 250px;
+  }
+  .searchResult__infoTop > p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
