@@ -1,0 +1,370 @@
+.Search__result {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.back {
+  float: left;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 25px;
+  opacity: 0.7;
+  color: #5091f9;
+  text-decoration: none;
+}
+
+.searchResult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.searchResult:hover {
+  opacity: 0.8;
+}
+
+.search__images {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.searchResult__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.searchResult__heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.searchResult__infoTop {
+  width: 40vw;
+}
+
+.searchResult__infoTop > h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.searchResult__infoTop > p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+
+.searchResult__infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchResult__star {
+  color: #5091f9;
+}
+
+.searchResult__stars {
+  display: flex;
+  align-items: center;
+}
+
+.searchResults__price > p {
+  text-align: right;
+}
+
+.searchResults__price {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.SearchInformation {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+.SearchInformation__location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SearchInformation__Left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.SearchInformation__right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.h2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.h2 span {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.SearchInformation__images {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.SearchInformation__images > div {
+  cursor: pointer;
+  height: 230px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+  transition: all 0.5s ease-in;
+}
+
+.SearchInformation__images > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.SearchInformation__images > div:nth-of-type(1) {
+  grid-column: 1 / 3;
+}
+
+.SearchInformation__images > div:nth-of-type(6) {
+  grid-column: 3 / 5;
+}
+
+.SearchInformation__images > div:nth-of-type(9) {
+  grid-column: 3 / 5;
+}
+
+.SearchInformation__images > div:nth-of-type(10) {
+  grid-column: 1 / 3;
+}
+
+.Search__info {
+  margin-top: 40px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Search__info div {
+  height: 30%;
+}
+.two {
+  width: 40%;
+}
+.Search__info .Search__info__left,
+.Search__info .two {
+  height: 45%;
+}
+.left {
+  width: 60%;
+}
+.Search__info__left {
+  display: flex;
+  justify-content: space-between;
+}
+.Search__info__left > img {
+  border-radius: 50%;
+  height: 50px;
+}
+.Search__info__container > h3 {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.Search__info__left > h3 {
+  border-bottom: 1px solid #333;
+}
+
+.entire_home {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.entie_home_text {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.entie_home_text > p {
+  font-size: 1rem;
+}
+
+.home {
+  margin-top: 20px;
+  margin-bottom: -46px;
+}
+
+hr {
+  opacity: 0.5;
+  color: lightgrey;
+}
+.search__hr {
+  margin-top: -35px;
+}
+.home__hr {
+  margin-top: 36px;
+}
+
+.covid__19 > p {
+  padding-top: 20px;
+  font-size: 19px;
+}
+.covid__19 > button {
+  outline: none;
+  border: none;
+  background-color: #ff6167;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+.covid__19__contct {
+  border-bottom: 1px solid #333;
+  max-width: 120px;
+  cursor: pointer;
+}
+
+.sleeping__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  text-align: center;
+}
+.sleeping__container__border {
+  border: 1px solid #333;
+}
+.sleeping {
+  margin-top: -70px;
+}
+
+.three__container {
+  border: 1px solid rgba(61, 59, 59, 0.13);
+  padding-bottom: 44vh;
+  text-align: center;
+}
+.three__container > h4 > span {
+  color: #ff6167;
+}
+.three__container > h4 {
+  margin-top: 20px;
+}
+.three__container > img {
+  border-radius: 50%;
+  height: 70px;
+  padding: 20px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form > input {
+  margin: 10px;
+  max-width: 100%;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+
+  box-sizing: border-box;
+}
+.contact__btn {
+  background-color: #ff6167;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.emoji {
+  color: #ff6167;
+}
+
+.searchPage__info {
+  padding: 20px;
+
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.searchPage__info > p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.searchPage__info > h1 {
+  margin-bottom: 30px;
+}
+
+.searchPage__info > button {
+  border-radius: 30px;
+  text-transform: inherit;
+  margin: 5px;
+}
+
+.Link {
+  text-decoration: none !important;
+}
+.Link:visited {
+  color: black;
+}
+
+.challenge {
+  width: 1000px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: [header-start] 100px [header-end box-start] 200px [box-end main-start] 400px [main-end footer-start] 100px [footer-end];
+  grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 200px [grid-end];
+  grid-gap: 30px;
+}
+.challenge > * {
+  background-color: lightblue;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.challenge .header {
+  grid-column: col-start 1 / grid-end;
+}
+.challenge .sidebar {
+  grid-column: col-end 3 / grid-end;
+  grid-row: box-start / main-end;
+}
+.challenge .main-content {
+  grid-column: col-start 1 / col-end 3;
+}
+.challenge .footer {
+  grid-column: col-start 1 / grid-end;
+}
