@@ -44,7 +44,8 @@ const Nav = styled.nav`
   ul {
   }
   li {
-    display: inline;
+  color: black;
+  display: inline;
   margin: 20px;
   font-size: 1.4em;
   cursor: pointer;

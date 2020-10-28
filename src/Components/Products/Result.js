@@ -1,14 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import StarIcon from "@material-ui/icons/Star";
-import ShareIcon from "@material-ui/icons/Share";
-import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import HotelIcon from "@material-ui/icons/Hotel";
-import EventIcon from "@material-ui/icons/Event";
-import SingleBedIcon from "@material-ui/icons/SingleBed";
-import FitnessCenterIcon from "@material-ui/icons/FitnessCenter";
-import FastfoodIcon from "@material-ui/icons/Fastfood";
-import Brightness5Icon from "@material-ui/icons/Brightness5";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 
 export const Result = (props) => {
