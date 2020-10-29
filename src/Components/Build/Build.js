@@ -59,7 +59,7 @@ class Build extends React.Component{
                     <input placeholder="Enter Item 2 Price" name= "pricetwo" className = "store__input" type="text"/>
                     <input placeholder="Enter Item 3" name= "thirditem" className = "store__input" type="text"/>
                     <input placeholder="Enter Item 3 Price" name= "pricethree" className = "store__input" type="text"/>
-                    <button className = "store__button">add</button>
+                    <button className = "store__button">Build!</button>
                 </div>
             </form>
         </section>
