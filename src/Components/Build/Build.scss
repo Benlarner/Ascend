@@ -1,76 +1,71 @@
 $blue: #5091f9;
 $red: #9e363a;
 $purple: #091f36;
-$grey:  #575757;
-
+$grey: #575757;
 
 @mixin tablet {
-    @media only screen and (max-width: 1200px) {
-        @content;
-    }
+  @media only screen and (max-width: 1200px) {
+    @content;
+  }
 }
 @mixin mobile {
-    @media only screen and (max-width: 768px) {
-        @content;
-    }
-}
-
-@mixin button{
-    background-color: white;
-    text-decoration: unset;
-    border: 2px solid ;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    &:hover{
-        color: white;
-    }
+  @media only screen and (max-width: 768px) {
     @content;
+  }
 }
 
-
-img{
-    width: 40%;
-    height: auto;
+@mixin button {
+  background-color: white;
+  text-decoration: unset;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  &:hover {
+    color: white;
+  }
+  @content;
 }
 
-.store{
-    width: 50%;
+.store__image {
+  width: 40%;
+  height: auto;
+}
+
+.store {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    text-transform: uppercase;
+    color: $blue;
+    margin-bottom: 0.5rem;
+  }
+
+  &__form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
+  }
 
-    &__title{
-        text-transform: uppercase;
-        color: $blue;
-        margin-bottom: 0.5rem;
-    }
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  &__input {
+    width: 50%;
+  }
 
-    &__form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 80%;
-        
-    }
-
-    &__container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    &__input{
-        width: 50%;
-    }
-
-    &__button{
-        margin-top: 2rem;
-        @include button;
-        min-width: 50%;
-    }
+  &__button {
+    margin-top: 2rem;
+    @include button;
+    min-width: 50%;
+  }
 }
-

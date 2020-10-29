@@ -1,51 +1,49 @@
 $blue: #5091f9;
 $red: #9e363a;
 $purple: #091f36;
-$grey:  #575757;
-
+$grey: #575757;
 
 @mixin tablet {
-    @media only screen and (max-width: 1200px) {
-        @content;
-    }
+  @media only screen and (max-width: 1200px) {
+    @content;
+  }
 }
 @mixin mobile {
-    @media only screen and (max-width: 768px) {
-        @content;
-    }
-}
-
-@mixin button{
-    background-color: white;
-    text-decoration: unset;
-    border: 2px solid ;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    &:hover{
-        color: white;
-    }
+  @media only screen and (max-width: 768px) {
     @content;
+  }
 }
 
+@mixin button {
+  background-color: white;
+  text-decoration: unset;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  &:hover {
+    color: white;
+  }
+  @content;
+}
 
-.built{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    margin-right: 2rem;
+.built {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-right: 2rem;
 
-    &__title{
-        color: $blue;
-    }
+  &__title {
+    color: $blue;
+  }
 
-    &__store{
-        height: 100%;
-    }
+  &__store {
+    height: 100%;
+  }
 
-    &__item{
-        height: 80%;
-    }
+  &__item {
+    height: 80%;
+  }
 }
