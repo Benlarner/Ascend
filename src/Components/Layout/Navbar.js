@@ -7,7 +7,7 @@ import Logo from '../Data/Assests/Logo.jpg'
 function Navbar() {
     return (
         <Nav>
-           <Link to="/">
+           <Link className = "logo" to="/">
             <img src={Logo} alt=""/>
             </Link>
             <ul>
@@ -21,6 +21,10 @@ function Navbar() {
                 <Link to="/Contact" className="Link" >
 
                 <li>Contact</li>
+                </Link>
+
+                <Link to ="/Try" className = "Link">
+                  <li>Try it out!</li>
                 </Link>
             </ul>
         </Nav>
