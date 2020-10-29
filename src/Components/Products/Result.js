@@ -14,31 +14,31 @@ export const Result = (props) => {
         </Link>
       </div>
 
-      <div class="service">
-        <div class="header">
+      <div className="service">
+        <div className="header">
           {props.serviceName}
           <div className="underline"></div>
         </div>
-        <div class="small-box-1">
+        <div className="small-box-1">
           <img src={props.service__img1} alt="" />
         </div>
-        <div class="small-box-2">
+        <div className="small-box-2">
           <img src={props.service__img2} alt="" />
         </div>
-        <div class="small-box-3">
+        <div className="small-box-3">
           <img src={props.service__img3} alt="" />
         </div>
 
-        <div class="main-content">
+        <div className="main-content">
           <div className="underline__middle"></div>
           {props.serviceDescpretion}
           <div className="underline__middle"></div>
         </div>
-        <div class="sidebar">
+        <div className="sidebar">
           <Sidebar />
         </div>
 
-        <div class="footer">{props.footer}</div>
+        <div className="footer">{props.footer}</div>
       </div>
     </>
   );
