@@ -22,6 +22,10 @@ function Navbar() {
 
                 <li>Contact</li>
                 </Link>
+
+                <Link to ="/Try" className = "Link">
+                  <li>Try it out!</li>
+                </Link>
             </ul>
         </Nav>
     )
