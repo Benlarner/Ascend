@@ -1,90 +1,71 @@
-
 export const ResultsList = [
   {
-    img:
-      "https://i.ibb.co/C0BqK7H/q-RZm6-CIDi.png",
-
-    title: "Flexiablity and Highly Responsive",
-    description:
-      "React JS - Redux - SASS - Changeable - React JS - Redux - SASS - Changeable",
+    img: "https://i.ibb.co/C0BqK7H/q-RZm6-CIDi.png",
+    title: "Online Store",
+    description: "E-commerce - Responsive - Payments",
     star: "4.73",
     price: "$30 / Hour",
-    total: "$117 total",
-    url: "MobileDev",
+    total: "$95 total",
+    url: "Online",
     location: "Toronto, Ontario, Canada",
+    serviceName: "Online Store",
+    serviceDescpretion:
+      "Build your favourite online store with us and deploy it within a few clicks. With Ascend, Sell more and promote your brand with state-of-the-art storefronts, custom cart and checkout, and an industry-leading suite of professional eCommerce apps.",
+    service__img1: "https://i.ibb.co/tpy04xN/content-creation-1.png",
+    service__img2: "https://i.ibb.co/hCx86QR/paypal.png",
+    service__img3: "https://i.ibb.co/gPG6GpP/smart-phone-data.png",
 
-
+    footer: "%50",
   },
   {
-    img:
-      "https://i.ibb.co/BgkHxpp/Zv0u-NURCn.png",
-      title: "Flexiablity and Highly Responsive",
-      description:
-        "React JS - Redux - SASS - Changeable - React JS - Redux - SASS - Changeable",
-      star: "4.73",
-      price: "$30 / Hour",
-      total: "$117 total",
-      url: "Omar",
-      location: "Toronto, Ontario, Canada",
-  },
-  {
-    img:
-      "https://i.ibb.co/CwZ5xhd/IRm-PQm5ho.png",
-      title: "Flexiablity and Highly Responsive",
-      description:
-        "React JS - Redux - SASS - Changeable - React JS - Redux - SASS - Changeable",
-      star: "4.73",
-      price: "$30 / Hour",
-      total: "$117 total",
-      url: "Omer",
-      location: "Toronto, Ontario, Canada",
-  },
-  {
-    img:
-      "https://i.ibb.co/qrVw8GX/ROYAc-Vh-Ho.png",
-      title: "Flexiablity and Highly Responsive",
-      description:
-        "React JS - Redux - SASS - Changeable - React JS - Redux - SASS - Changeable",
-      star: "4.73",
-      price: "$30 / Hour",
-      total: "$117 total",
-      url: "Omaar",
-      location: "Toronto, Ontario, Canada",
-  },
-  {
-    img:
-      "https://i.ibb.co/C0BqK7H/q-RZm6-CIDi.png",
-    city: "Private room in center of Montreal",
-    title: "Flexiablity and Highly Responsive",
-    description:
-      "React JS - Redux - SASS - Changeable - React JS - Redux - SASS - Changeable",
+    img: "https://i.ibb.co/qrVw8GX/ROYAc-Vh-Ho.png",
+    title: "Social Media",
+    description: "Facebook - Instagram - Twitter - Youtube",
     star: "4.73",
-    price: "$30 / Hour",
-    total: "$117 total",
-    url: "Omo",
-    location: "Toronto, Ontario, Canada",},
-  {
-    img:
-      "https://i.ibb.co/BgkHxpp/Zv0u-NURCn.png",
-      title: "Flexiablity and Highly Responsive",
-      description:
-        "React JS - Redux - SASS - Changeable - React JS - Redux - SASS - Changeable",
-      star: "4.73",
-      price: "$30 / Hour",
-      total: "$117 total",
-      url: "ww",
-      location: "Toronto, Ontario, Canada",
+    price: "$17 / Hour",
+    total: "$54 total",
+    url: "Media",
+    location: "Calgary - Alberta - Canada",
+    serviceName: "Social Media",
+    serviceDescpretion:
+      "Ascends offer to handle all social media of your online store. We  Create an ad campaign on Facebook and Instagram and let ASCEND  handle the rest—audience targeting, ongoing A/B testing, sales tracking and more.",
+    service__img1: "https://i.ibb.co/7JBJpQd/like.png",
+    service__img2: "https://i.ibb.co/9H8d9jz/social-media-1.png",
+    service__img3: "https://i.ibb.co/BwfF2cH/social-media.png",
+    footer: "%45",
   },
   {
-    img:
-      "https://i.ibb.co/CwZ5xhd/IRm-PQm5ho.png",
-      title: "Flexiablity and Highly Responsive",
-      description:
-        "React JS - Redux - SASS - Changeable - React JS - Redux - SASS - Changeable",
-      star: "4.73",
-      price: "$30 / Hour",
-      total: "$117 total",
-      url: "des",
-      location: "Toronto, Ontario, Canada",
+    img: "https://i.ibb.co/CwZ5xhd/IRm-PQm5ho.png",
+    title: "Mobile Applications Development",
+    description: "Flutter - React Native - Swift",
+    star: "5.00",
+    price: "$25 / Hour",
+    total: "$135 total",
+    url: "Mobile",
+    location: "Montreal, Quebec, Canada",
+    serviceName: "Mobile Applications Development",
+    serviceDescpretion:
+      "The Mobile Applications Development plan offers Extensive success developing on the iOS platform for individual clients as well as larger companies. Expert development for iPhone, iPad, Apple Watch, and Apple TV using Swift, SwiftUI and Objective C. ",
+    service__img1: "https://i.ibb.co/kcw55kz/user-interface-flatline.png",
+    service__img2: "https://i.ibb.co/GvkVsCY/data-storage-flatline.png",
+    service__img3: "https://i.ibb.co/zhxdzkF/data-and-settings-flatline.png",
+    footer: "%20",
+  },
+  {
+    img: "https://i.ibb.co/BgkHxpp/Zv0u-NURCn.png",
+    title: "The Full Management Plan",
+    description: "Full Managment - Increase Profits - Peace of Mind",
+    star: "4.73",
+    price: "$70 / Hour",
+    total: "$350 total",
+    url: "Management",
+    location: "Canada Wide",
+    serviceName: "The Full Management Plan",
+    serviceDescpretion:
+      "The Full Management Plan offers you full control of your business and a grant that will increase your profits. We offer profissional analysis, data processing, and analytic process.. With us, you will be joyful and happy.",
+    service__img1: "https://i.ibb.co/3m0sMhW/data-analyzing-flatline.png",
+    service__img2: "https://i.ibb.co/m8XfYJ2/analytics-process-flatline.png",
+    service__img3: "https://i.ibb.co/2PhnL4f/data-processing-flatline.png",
+    footer: "%60",
   },
 ];

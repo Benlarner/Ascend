@@ -1,18 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import StarIcon from "@material-ui/icons/Star";
-import ShareIcon from "@material-ui/icons/Share";
-import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import HotelIcon from "@material-ui/icons/Hotel";
-import EventIcon from "@material-ui/icons/Event";
-import SingleBedIcon from "@material-ui/icons/SingleBed";
-import FitnessCenterIcon from "@material-ui/icons/FitnessCenter";
-import FastfoodIcon from "@material-ui/icons/Fastfood";
-import Brightness5Icon from "@material-ui/icons/Brightness5";
+import Sidebard from "./Sidebar";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 
+import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
+import Sidebar from "./Sidebar";
 export const Result = (props) => {
- 
   return (
     <>
       <div>
@@ -21,16 +14,36 @@ export const Result = (props) => {
         </Link>
       </div>
 
-      <div class="challenge">
-        <div class="header">Name of Service</div>
-        <div class="small-box-1">IMG 1</div>
-        <div class="small-box-2">IMG 2</div>
-        <div class="small-box-3">IMG 3</div>
-        <div class="main-content">Explanation of the Service</div>
-        <div class="sidebar">Trending Component</div>
-        <div class="footer">Other Info related</div>
+      <div className="service">
+        <div className="header">
+          {props.serviceName}
+          <div className="underline"></div>
+        </div>
+        <div className="small-box-1">
+          <img className="small__image" src={props.service__img1} alt="" />
+        </div>
+        <div className="small-box-2">
+          <img className="small__image" src={props.service__img2} alt="" />
+        </div>
+        <div className="small-box-3">
+          <img className="small__image" src={props.service__img3} alt="" />
+        </div>
+
+        <div className="main-content">
+          <div className="underline__middle"></div>
+          {props.serviceDescpretion}
+          <div className="underline__middle"></div>
+        </div>
+        <div className="sidebar">
+          <Sidebar />
+        </div>
+
+        <div className="footer">
+          {" "}
+          We have a special offer now and we provide{" "}
+          <strong>{props.footer}</strong> discount if you join today.
+        </div>
       </div>
-      
     </>
   );
 };
