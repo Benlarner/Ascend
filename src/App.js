@@ -9,6 +9,7 @@ import ShoppingCart from './Components/ShoppingCart/ShoppingCart';
 import Footer from "./Components/Layout/Footer";
 import Navbar from "./Components/Layout/Navbar";
 import ResultsContainer from "./Components/Products/ResultsContainer";
+import Try from "./Components/Try/Try";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Results" render={() => <ResultsContainer />} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/Cart" component={ShoppingCart} />
+        <Route exact path = "/Try" component = {Try} />
     </Switch>
     <Footer/>
     </>
