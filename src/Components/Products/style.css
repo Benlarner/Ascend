@@ -341,7 +341,7 @@ form > input {
 }
 
 .service {
-  width: 1000px;
+  max-width: 1000px;
   margin: 30px auto;
   display: grid;
   grid-template-rows: [header-start] 100px [header-end box-start] 200px [box-end main-start] 250px [main-end footer-start] 100px [footer-end];
@@ -349,7 +349,6 @@ form > input {
   grid-gap: 30px;
 }
 .service > * {
-  padding: 20px;
   color: black;
   font-size: 22px;
 }
@@ -367,10 +366,10 @@ form > input {
 .service .footer {
   grid-column: col-start 1 / grid-end;
 }
-img {
+.small__image {
   height: 220px;
+  width: 220px;
 }
-
 .sidebar__container {
   position: relative;
   display: block;
@@ -496,4 +495,15 @@ img {
     margin-bottom: 10px;
     margin-top: 10px;
   }
+
+  .underline {
+    margin: 0 auto;
+  }
+  .service {
+    display: block !important;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
 }

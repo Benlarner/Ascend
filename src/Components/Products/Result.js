@@ -20,13 +20,13 @@ export const Result = (props) => {
           <div className="underline"></div>
         </div>
         <div className="small-box-1">
-          <img src={props.service__img1} alt="" />
+          <img className="small__image" src={props.service__img1} alt="" />
         </div>
         <div className="small-box-2">
-          <img src={props.service__img2} alt="" />
+          <img className="small__image" src={props.service__img2} alt="" />
         </div>
         <div className="small-box-3">
-          <img src={props.service__img3} alt="" />
+          <img className="small__image" src={props.service__img3} alt="" />
         </div>
 
         <div className="main-content">
