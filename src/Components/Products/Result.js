@@ -38,7 +38,11 @@ export const Result = (props) => {
           <Sidebar />
         </div>
 
-        <div className="footer">{props.footer}</div>
+        <div className="footer">
+          {" "}
+          We have a special offer now and we provide{" "}
+          <strong>{props.footer}</strong> discount if you join today.
+        </div>
       </div>
     </>
   );

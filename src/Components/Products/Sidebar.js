@@ -15,7 +15,7 @@ function Sidebar() {
                 <WhatshotIcon className="icon-trending" height="20" />
                 Increase Revnue:
               </span>
-              &nbsp;the complete package for your online store&nbsp;
+              &nbsp;Join us and increase your revnue&nbsp;
             </p>
             <p className="sidebar__shares">5.4k VISITED</p>
           </div>
@@ -23,31 +23,31 @@ function Sidebar() {
             <p>
               <span className="coloring">
                 <WhatshotIcon className="icon-trending" height="20" />
-                Increase Revnue:
+                Easy set ups:
               </span>
-              &nbsp;the complete package for your online store&nbsp;
+              &nbsp;Build your own store in a few moments&nbsp;
             </p>
-            <p className="sidebar__shares">5.4k VISITED</p>
+            <p className="sidebar__shares">3.7k VISITED</p>
           </div>
           <div className="sidebar__item">
             <p>
               <span className="coloring">
                 <WhatshotIcon className="icon-trending" height="20" />
-                Increase Revnue:
+                Full Refund:
               </span>
-              &nbsp;the complete package for your online store&nbsp;
+              &nbsp;Our clients will be fully refunded of they choose to&nbsp;
             </p>
-            <p className="sidebar__shares">5.4k VISITED</p>
+            <p className="sidebar__shares">2.1k VISITED</p>
           </div>
           <div className="sidebar__item">
             <p>
               <span className="coloring">
                 <WhatshotIcon className="icon-trending" height="20" />
-                Increase Revnue:
+                Free Adds:
               </span>
-              &nbsp;the complete package for your online store&nbsp;
+              &nbsp;We provide free adds for you to increase your profits&nbsp;
             </p>
-            <p className="sidebar__shares">5.4k VISITED</p>
+            <p className="sidebar__shares">1.8k VISITED</p>
           </div>
         </div>
       </div>
